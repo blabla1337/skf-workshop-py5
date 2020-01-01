@@ -1,0 +1,14 @@
+*.pyc
+.DS_Store
+**/.__pycache__
+**/.DS_Store
+**/*.swp
+**/.eggs
+**/.cache
+**/dist
+.coverage
+.vscode
+venv
+bin
+bin64
+include
