@@ -5,7 +5,7 @@ class Profiles:
     
     def getProfile(self, userid):
 	    db = database_con()
-	    cur = db.execute('SELECT * FROM users where userid='+userid)
+	    cur = db.execute('SELECT * FROM users where userid='+str(userid))
 	    return cur.fetchall()
 
     def getProfiles(self):
